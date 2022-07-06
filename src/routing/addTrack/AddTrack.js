@@ -16,13 +16,19 @@ export default function AddTracks() {
         </div>
         <Grid container spacing={2} sx={{textAlign:'center',p:3}}>
           <Grid item xs={12} sm={6}>
-            <InputField labal="Category" />
+            <InputField type ='Text' labal="Category" />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <InputField labal="Track Name" />
+            <InputField type ='Text' labal="Track Name" />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <InputField labal="Released By" />
+            <InputField type ='Text' labal="Released By" />
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <InputField type ='file' labal="Track Song" id="standard-basic" variant="standard"/>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <InputField type ='file' labal="Track Image" id="standard-basic" variant="standard"/>
           </Grid>
 
         </Grid>

@@ -1,15 +1,16 @@
 .mainDiv{
-    background-color: #14213d;
+    background-color: #f1faee;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .formMainDiv{
-    background-color: #83c5be;
+    background-color: white;
     padding: 20px;
-    border: 1px solid  rgb(0, 0, 0);
+  
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .FDText{
 
