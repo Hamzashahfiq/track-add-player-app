@@ -1,12 +1,12 @@
+import React, { Component } from 'react'
 import './App.css';
 import AddTrack from './routing/addTrack/AddTrack';
 
-function App() {
-  return (
-    <div >
-     <AddTrack />
-    </div>
-  );
-}
 
-export default App;
+export default class App extends Component {
+  render() {
+    return (
+      <div><AddTrack /></div>
+    )
+  }
+}

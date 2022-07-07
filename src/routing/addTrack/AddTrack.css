@@ -8,6 +8,7 @@
 .formMainDiv{
     background-color: white;
     padding: 20px;
+    width: 500px;
   
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -19,4 +20,16 @@
      padding: 5px;
      text-align: center;
      background-color: #84a59d;
+}
+.TrackText{
+    margin: 0;
+    padding: 0;
+    color: #727575;
+    margin-bottom:10px ;
+}
+.ImageText{
+    color: #727575;
+    margin: 0;
+    padding: 0;
+    margin-bottom:10px ;
 }
